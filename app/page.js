@@ -1,4 +1,2 @@
 export default function Home() {
-  return (
-    <div className="text-2xl mt-9"> This is home page</div>
-  )}
+return <div className="pt-10 px-5 text-2xl"> This is home page</div>}
