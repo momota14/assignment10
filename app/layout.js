@@ -13,13 +13,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
   <div className="navbar bg-base-100 shadow-sm justify-center fixed top-0">
-      <Link className="btn btn-ghost normal-case text-xl" to="/">
+      <Link className="btn btn-ghost normal-case text-xl" href="/">
         Home
       </Link>
-      <Link className="btn btn-ghost normal-case text-xl" to="/about">
+      <Link className="btn btn-ghost normal-case text-xl" href="/about">
         About
       </Link>
-      <Link className="btn btn-ghost normal-case text-xl" to="/service">
+      <Link className="btn btn-ghost normal-case text-xl" href="/service">
         Service 
       </Link>
     </div>
