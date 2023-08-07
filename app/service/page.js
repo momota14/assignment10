@@ -1,3 +1,3 @@
-export default function About() {
-  return <div className="text-2xl mt-9"> This is service page</div>
+export default function Service() {
+  return <div className="pt-10 px-5 text-2xl"> This is Service page</div>
 }
