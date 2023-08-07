@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         Service 
       </Link>
     </div>
-  <div className="mt-20">{children}</div></body>
+  <div className="mt-14">{children}</div></body>
     </html>
   )
 }
